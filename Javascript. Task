@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Task</h1>
+
+<script>
+var name = "OGHENEKARO";
+var courses =["HTML", "CSS", "JavaScript"];
+//To display my name//
+document.write(name);
+//To display my courses//
+document.write(courses);
+var i;
+    for (i = 1; i <= 200; i++) {
+        if (i % 2 == 0) {
+            continue; //if num is odd
+        }
+        document.write(i) + "</n>";
+    }
+
+</script>
+
+</body>
+</html>
+
